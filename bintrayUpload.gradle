@@ -4,6 +4,7 @@ apply plugin: 'com.jfrog.bintray'                   //Maven所需文件上传到
 
 def siteUrl = 'https://github.com/dodosss/android-common'      // 项目的主页
 def gitUrl = 'https://github.com/dodosss/android-common.git'   // Git仓库的url
+version = "1.0.0"
 group = "com.dodo.android"                                     // Maven Group ID for the artifact，一般填你唯一的包名
 install {
     repositories.mavenInstaller {
