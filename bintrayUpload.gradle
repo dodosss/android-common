@@ -78,6 +78,7 @@ javadoc { //jav doc采用utf-8编码否则会报“GBK的不可映射字符”�
     }
 }
 
+
 // how to?
 //1、project --> build.gradle
 //dependencies {
