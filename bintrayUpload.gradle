@@ -77,3 +77,26 @@ javadoc { //jav doc采用utf-8编码否则会报“GBK的不可映射字符”�
         charSet 'UTF-8'
     }
 }
+
+// how to?
+//1、project --> build.gradle
+//dependencies {
+//    classpath 'com.android.tools.build:gradle:2.2.3'
+//    classpath 'com.google.gms:google-services:3.0.0'
+
+//    classpath 'com.github.dcendents:android-maven-gradle-plugin:1.4.1'
+//    classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.2'
+//}
+
+//2、module --> build.gradle
+//apply from: "bintrayUpload.gradle"
+
+//3、local.properties
+//bintray.user = dodo
+//bintray.apikey = *******************
+//gradlew install
+//gradlew bintrayUpload
+
+//5、links
+//https://bintray.com/dodo
+//https://github.com/dodosss/android-common

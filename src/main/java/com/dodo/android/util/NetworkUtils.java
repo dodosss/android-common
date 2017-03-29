@@ -15,9 +15,9 @@ import android.net.NetworkInfo;
 public class NetworkUtils 
 {
 
-    public static final int NETTYPE_WIFI = 0x01;
-    public static final int NETTYPE_CMWAP = 0x02;
-    public static final int NETTYPE_CMNET = 0x03;
+    private static final int NETTYPE_WIFI = 0x01;
+    private static final int NETTYPE_CMWAP = 0x02;
+    private static final int NETTYPE_CMNET = 0x03;
 
     /**
      * 檢測網絡是否可用
